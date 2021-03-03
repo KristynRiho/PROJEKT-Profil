@@ -66,42 +66,33 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   list-style-type: none;
-  text-align: center;
-  padding: 0 !important;
 }
 
 .odkazy a {
-  color: #bdc3c7;
-  font-weight: 700;
   text-decoration: none;
+  color: #bdc3c7;
+  display: block;
+  text-align: center;
+  padding: 5px 0;
 }
 
-.portfolio a {
-  display: block;
-  padding: 10px;
-  border: 1px solid #3f464d;
+.portfolio {
+  border-bottom: 1px solid #3f464d;
+  border-top: 1px solid #3f464d;
 }
 
 .facebook,
 .twitter {
   display: inline-block;
+  width: 49%; /* když dám 50% skočí mi facebook a twitter pod sebe */
 }
+
 .twitter {
   border-left: 1px solid #3f464d;
 }
 
-.facebook a,
-.twitter a {
-  display: inline-block;
-  margin: 0 auto;
-}
-
-.facebook a {
-  padding: 10px 20.136px;
-}
-
-.twitter a {
-  padding: 10px 29.37px;
+.portfolio a:hover {
+  background-color: #e74c3c;
 }
 
 .facebook a:hover {
@@ -110,10 +101,6 @@ body {
 
 .twitter a:hover {
   background-color: #1da1f2;
-}
-
-.portfolio a:hover {
-  background-color: #e74c3c;
 }
 
 /*
