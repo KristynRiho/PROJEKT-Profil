@@ -84,7 +84,7 @@ body {
 .facebook,
 .twitter {
   display: inline-block;
-  width: 49%; /* když dám 50% skočí mi facebook a twitter pod sebe */
+  width: 50%;
 }
 
 .twitter {
